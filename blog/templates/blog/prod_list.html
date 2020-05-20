@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loading list of products</title>
+</head>
+<body>
+	<center>
+		<table border="1" bgcolor="lightblue" width="80%" height="80">
+			<thead>
+				<th>product id</th>
+				<th>product name</th>
+				<th>product price</th>
+			</thead>
+			{% for i in prodlist %}
+				<tr>
+					<td>{{ i.pid }}</td>
+					<td>{{ i.pname }}</td>
+					<td>{{ i.pprice }}</td>
+					{% if i.pprice >= 400.00 %}
+					<td>15% discount</td>
+					{% elif i.pprice >= 200.00 %}
+					<td>10% discount</td>
+					{% else %}
+					<td>5% discount</td>
+					{% endif %}
+				</tr>
+					{% endfor %}
+				</table>
+			</center>
+			
+
+
+</body>
+</html>

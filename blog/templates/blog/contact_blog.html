@@ -1,0 +1,14 @@
+<html>
+<head><title>Please Join</title></head>
+<body bgcolor="pink">
+	<center>
+		<form action="" method="post">
+			<p align="justify">
+				{% csrf_token %}
+				{{ form.as_p }}
+				<button type="submit">Submit</button>
+			</p>
+		</form>
+	</center>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loading multiple record to template file</title>
+</head>
+<body>
+	<center>
+		<table border="1" bgcolor="lightblue" width="80%" height="80">
+			<thead>
+				<th>student_id</th>
+				<th>student_name</th>
+				<th>course</th>
+				<th>fee</th>
+			</thead>
+			{% for i in studlist %}
+			<tr>
+				<td>{{ i.sid }}</td>
+				<td>{{ i.sname }}</td>
+				<td>{{ i.course }}</td>
+				<td>{{ i.fee }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</center>
+</body>
+</html>

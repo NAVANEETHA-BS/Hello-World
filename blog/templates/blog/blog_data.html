@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>static page</title>
+</head>
+<body>
+	<div class='blog'>
+		<table>
+			{% for value in blogdb %}
+			<tr>
+				<td>{{ value.title | title }}</td>
+				<td>{{ value.text }}</td>
+				<td>{{ value.created_date }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+</body>
+</html>
