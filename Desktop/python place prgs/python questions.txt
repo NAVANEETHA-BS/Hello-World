@@ -1,0 +1,181 @@
+1) write a python script to check the given character is alphabet or not
+2)accept a number and print given number is armstrong number or not
+3)write a script to count number of even numbers and odd numbers
+4)check digit or not
+5) print even numbers from 1 to n with comma separator and their sum also
+6)print numbers from 1 to 100 except multiples of 4 and 5
+7)accept a number print factorial of the given number
+8)leap year or not
+9)accept a month and display number of days
+10)accept month name and display its quarter
+11)multiple of 5
+12)print number from 1 to 100, if number is multiple of 3 then print "tecno"
+and the number is multiple of 5 then print "soft" and if the number is
+multiple of 3 and 5 then print "tecnosoft"
+13)multiples of 5 and 3
+14)accept month name and display its quarter
+15)accept a month and display number of days
+16)leap year or not
+17)print numbers from 1 to 100 except multiples of 4 and 5
+18) print even numbers from 1 to n with comma separator and their sum also
+19)count number of even numbers and odd numbers
+20)accept a number and print given number is armstrong number or not
+21)check alphabet or not
+22)accept a character check it is vowel or not
+23)accept  numbers and find sum of digits of given number
+#(3+4+5+6=3456)
+24)accept the string check the string is palindrome (madam=madam)
+25) accept no. of products
+
+no. of products==3  => 50% discount
+no. of products==2  => 40% discount
+no. of products==1  => 30% discount
+26) print numbers 1 to n
+27)write a program print numbers 1 to 10
+28)print numbers n to 1
+29)
+'''
+*
+* *
+* * *
+* * * *
+* * * * *
+'''
+----------------------------------------------------------------
+2)
+*
+* * *
+* * * * *
+* * * * * * *
+* * * * * * * * *
+---------------------------------------------------------------
+3)
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+---------------------------------------------------------------
+4)
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+-----------------------------------------------------------------
+5)
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+
+---------------------------------------------------------------
+6)
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+-------------------------------------------------------------
+7)
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+---------------------------------------------------------
+8)
+
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+------------------------------------------------------
+9)
+
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+------------------------------------------------------
+10)
+
+5
+4 5
+3 4 5
+2 3 4 5
+1 2 3 4 5
+---------------------------------------------------
+11)
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+--------------------------------------------------
+12)
+
+1 2 3 4 5
+2 3 4 5
+3 4 5
+4 5
+5
+----------------------------------------------------
+13)
+
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+------------------------------------------------------
+14)
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+---------------------------------------------------------
+15)
+
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+------------------------------------------------------------
+16)
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+---------------------------------------------------------------------
+17)
+
+        *  
+       * *
+      * * *
+     * * * *
+    * * * * *
+   * * * * * *
+  * * * * * * *
+ * * * * * * * *
+* * * * * * * * *

@@ -1,0 +1,298 @@
+1)Tecno
+
+Tecno
+Tecno
+Tecno
+Tecno
+Tecno
+
+2)Tecno
+
+T.Tecno
+e.Tecno
+c.Tecno
+n.Tecno
+o.Tecno
+
+3)Tecno
+
+Tecno
+Tecn
+Tec
+Te
+T
+
+4)Tecno
+
+T
+Te
+Tec
+Tecn
+Tecno
+
+5)tecno
+
+t
+ee
+ccc
+nnnn
+oooo
+
+6)tecno
+
+tecno
+ecno
+cno
+no
+o
+
+7)tecno
+
+    t
+   et
+  cet
+ ncet
+oncet
+
+8)tecno
+
+    t
+   te
+  tec
+ tecn
+tecno
+
+9)tecno
+
+oncet
+once
+onc
+on
+o
+
+10)tecno
+
+tecno
+tecn
+tec
+te
+t
+te
+tec
+tecn
+tecno
+
+11)tecno
+
+tecnooncet
+tecn  ncet
+tec    cet
+te      et
+t        t
+
+12)tecno
+
+oncet
+ncet
+cet
+et
+t
+
+
+'''
+*
+* *
+* * *
+* * * *
+* * * * *
+'''
+
+
+
+n=int(input("enter number of rows : "))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print("*",end="")
+    print()
+    
+
+'''
+2)
+*
+* * *
+* * * * *
+* * * * * * *
+* * * * * * * * *
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(1,n+1,2):
+    for j in range(1,i+1):
+        print("*",end="")
+    print()
+
+    or
+
+n=int(input("enter number of rows : "))
+k=1
+for i in range(1,n+1):
+    for j in range(1,k+1):
+        print("*",end=" ")
+    k=k+2
+    print()
+
+'''
+3)
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(1,n+1):
+    for j in range(i,n):
+        print(" ",end=" ")
+    for k in range(1,i+1):
+        print("*",end=" ")
+    print()
+
+'''
+4)
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+'''
+n=int(input("enter number of rows : "))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+        
+'''
+5)
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+'''
+
+n=int(input("enter any number : "))
+for i in range(1,n+1):
+    for j in range(i,0,-1):
+        print(j,end=" ")
+    print()
+        
+        
+'''
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(i,end=" ")
+    print()
+'''
+7)
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+'''
+
+n=int(input("enter number of rows : "))
+k=1
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(k,end=" ")
+        k=k+1
+    print()
+'''
+7)
+
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(n,0,-1):
+    for j in range(n,i-1,-1):
+        print(j,end=" ")
+    print()
+'''
+10)
+
+5
+4 5
+3 4 5
+2 3 4 5
+1 2 3 4 5
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(n,0,-1):
+    for j in range(i,n+1):
+        print(j,end=" ")
+    print()
+'''
+12)
+
+1 2 3 4 5
+2 3 4 5
+3 4 5
+4 5
+5
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(1,n+1):
+    for j in range(i,n+1):
+        print(j,end=" ")
+    print()
+'''
+13)
+
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(n,0,-1):
+    for j in range(i,0,-1):
+        print(j,end=" ")
+    print()
+    
+'''
+14)
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+'''
+
+n=int(input("enter number of rows : "))
+for i in range(n,0,-1):
+    for j in range(n,n-i,-1):
+        print(j,end=" ")
+    print()

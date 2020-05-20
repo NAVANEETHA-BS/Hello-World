@@ -1,0 +1,328 @@
+# check alphabet or not
+'''
+0-9 =>48-57
+A-Z =>65-90
+
+ord() :it return given character ascii value
+eg:  ord('A') =>65
+
+chr() :it return given ascii value character
+eg: chr(65) => A
+
+'''
+
+ch=input("enter a character: ")
+if len(ch)==1:
+    #if ch.lower() in "abcdefghijklmnopqrstuvwxyz":
+    if (ord(ch))>=65 and (ord(ch))<=90 or (ord(ch))>=97 and (ord(ch))<=122:
+        print("given character is alphabet")
+    else:
+        print("given character is not an alphabet")
+else:
+    print("plz enter only one character")
+
+-----------------------------------------------------------------------------------------------------
+
+# calculator
+
+print(" Main Menu ")
+print("=============")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Product")
+print("4. Division")
+print("5. Power")
+print("exit")
+
+print("Enter option [1-6]) :")
+ans=int(input())
+if ans==6:
+    print("thank you")
+    sys.exit()
+elif ans not in(1,2,3,4,5,6):
+    print("enter choice between 1 and 6 only")
+else:
+    a=int(input("enter number 1 :"))
+    b=int(input("enter number 2 :"))
+    if ans==1:
+        c=a+b
+        print("sum=",c)
+    elif ans==2:
+        c=a-b
+        print("difference=",c)
+    elif ans==3:
+        c=a*b
+        print("product=",c)
+    elif ans==4:
+        c=a/b
+        print("division=",c)
+    elif ans==5:
+        c=a**b
+        print("power :",c)
+                
+
+---------------------------------------------------------------------------------------
+
+# count number of even numbers and odd numbers
+
+n=input("enter a number : ")
+
+even_cnt=0
+odd_cnt=0
+
+for i in n:
+    if int(i)!=0:
+        if int(i)%2==0:
+            even_cnt+=1
+        else:
+            odd_cnt+=1
+print("number of even numbers in a %s is : %d" %(n,even_cnt))
+print("number of odd numbers in a %s is : %d" %(n,odd_cnt))
+if even_cnt>odd_cnt:
+    print("even numbers more than odd numbers in a %s number " %(n))
+elif even_cnt<odd_cnt:
+    print("odd numbers more than even numbers in a %s number " %(n))
+else:
+    print("both are equal")
+
+---------------------------------------------------------------------------------------------
+
+#check digit or not
+
+
+n=input("enter a digit :")
+if len(n)==1:
+   if n in "0123456789":
+       print("given  number is a digit")
+   else:
+      print("given number is not a digit")
+else:
+    print("pz enter only one digit")
+
+----------------------------------------------------------------------------------------------
+
+# print even numbers from 1 to n with comma separator and their sum also
+
+n=int(input("enter a number : "))
+sum=0
+for i in range(1,n+1):
+    if i%2==0:
+        print(i, end=",")
+        sum+=i
+print("\n sum=",sum)
+
+'''
+for i in range(2,n+1,2):
+    print(i,end=",")
+    sum=sum+i
+    print("\n 1+2+3+4+5+.....%d,%(n,%d))
+    
+-----------------------------------------------------------------------------------------
+
+# leap year or not
+year=int(input("enter a 4 digit year"))
+if year%4==0 and year%100!=0 or year%400==0:
+    print(year,"year is a leap year")
+else:
+    print(year,"not a leap year")
+-----------------------------------------------------------------------------------
+
+#accept a month a nd display number of days
+
+month=input("enter a month :")
+
+if month.upper()=="FEBRUARY" :
+    print(month.upper(), "has 28/29 days.")
+elif month.upper() in ("JANUARY","MARCH","MAY","JULY","AUGUST","OCTOBER","NOVEMBER"):
+    print(month.upper(),"has 31 days.")
+elif month.upper() in ("APRIL","JUNE","SEPTEMBER","NOVEMBER"):
+     print(month.upper(),"has 30 days")
+else:
+     print("pls enter valid month name")
+          
+ ----------------------------------------------------------------------------------------
+
+# accept month name and display its quarter
+month=input("enter a month name")
+
+if month.upper() in ("JANUARY","FEBRUARY","MARCH"):
+    print("first quarter")
+elif month.upper() in ("APRIL","MAY","JUNE"):
+    print("second quarter")
+elif month.upper() in ("JULY","AUGUST","SEPTEMBER"):
+    print("third quarter")
+elif month.upper() in ("OCTOBER","NOVEMBER","DECEMBER"):
+    print("fourth quarter")
+else:
+    print("plz enter a valid month")
+--------------------------------------------------------------------------------------------
+
+#multiple of 5
+
+n=int(input("enter a number : "))
+sum=0
+for i in range(1,n+1):
+    if i%5==0:
+        print(i, end=",")
+        sum+=i
+print("\n sum=",sum)
+
+--------------------------------------------------------------------------------------
+'''
+print number from 1 to 100, if number is multiple of 3 then print "tecno"
+and the number is multiple of 5 then print "soft" and if the number is
+multiple of 3 and 5 then print "tecnosoft"
+
+accept 5 numbers and find sum of five numbers and avg of five numbers
+
+'''
+
+
+
+
+for i in range(1,101):
+    
+    if i%3==0 and i%5==0:
+        print(i,": tecnosoft")
+    elif i%3==0:
+        print(i,": tecno")
+    elif i%5==0:
+        print(i,": soft")
+    else:
+        print(i)
+    
+        
+        
+-------------------------------------------------------------------------------------------------
+'''
+print number from 1 to 100, if number is multiple of 3 then print "tecno"
+and the number is multiple of 5 then print "soft" and if the number is
+multiple of 3 and 5 then print "tecnosoft"
+
+accept 5 numbers and find sum of five numbers and avg of five numbers
+
+'''
+
+
+
+
+for i in range(1,101):
+    
+    if i%3==0 and i%5==0:
+        print(i,": tecnosoft")
+    elif i%3==0:
+        print(i,": tecno")
+    elif i%5==0:
+        print(i,": soft")
+    else:
+        print(i)
+    
+        
+        
+-------------------------------------------------------------------------------------
+# print numbers 1 to n with comma separator and their sum also
+n=int(input("enter a number"))
+sum=0
+for i in range(1,n+1):
+    print(i ,end=",")
+    sum=sum+i
+print(sum)
+------------------------------------------------------------------------------------
+# odd numbers and sum
+
+n=int(input("enter a number : "))
+sum=0
+for i in range(1,n+1):
+    if i%2==1:
+        print(i, end=",")
+        sum+=i
+print("\n sum=",sum)
+--------------------------------------------------------------------------------
+#print numbers n to 1
+n=int(input("enter a number"))
+for i in range(n,0,-1):
+    print(i)
+
+----------------------------------------------------------------------------------
+# write a program print numbers 1 to 10
+
+for i in range(1,11):
+    print(i)
+
+    #or
+
+i=1
+while i<=10:
+    
+print(i)
+i=i+1
+-----------------------------------------------------------------------------
+# print numbers 1 to n
+
+n=int(input("enter a number"))
+for i in range(1,n+1):
+    print(i)
+----------------------------------------------------------------------
+#  print infinity
+
+i=1
+while True:
+    print(i)
+    i=i+1
+#control+c to stop printing numbers
+-------------------------------------------------------------------
+# accept no. of products
+'''
+no. of products==3  => 50% discount
+no. of products==2  => 40% discount
+no. of products==1  => 30% discount
+'''
+
+n=int(input("How many shirts do you want to buy[max : 3] ? :"))
+if n==3:
+    (sh1,sh1_pr)=input("Enter shirt brand name,price : ").split()
+    (sh2,sh2_pr)=input("Enter shirt brand name,price : ").split()
+    (sh3,sh3_pr)=input("Enter shirt brand name,price : ").split()
+    total=float(sh1_pr)+float(sh2_pr)+float(sh3_pr)
+    if sh1==sh2 and sh2==sh3:
+        disc=total*50/100
+        total=total-disc
+    print("your bill is :",total)
+elif n==2:
+    
+    (sh1,sh1_pr)=input("Enter shirt brand name,price : ").split()
+    (sh2,sh2_pr)=input("Enter shirt brand name,price : ").split()
+    total=float(sh1_pr)+float(sh2_pr)
+    if sh1==sh2:
+        disc=total*40/100
+        total=total-disc
+    print("your bill is :",total)
+elif n==1:
+    
+    (sh1,sh1_pr)=input("Enter shirt brand name,price : ").split()
+    total=float(sh1_pr)
+    disc=total*30/100
+    total=total-disc
+    print("your bill is :",total)
+    
+----------------------------------------------------------------------------------
+#accept  numbers and find sum of digits of given number
+#(3+4+5+6=3456)
+
+n=input("enter any number : ")
+cnt=0
+for i in n:
+    
+    cnt+=int(i)
+print("sum=",cnt)
+
+# %(n,sum)
+#cnt=0
+
+      
+---------------------------------------------------------------------------------------
+a=input("enter a character : ")
+if a in "aeiouAEIOU":
+    print("given character is a vowel")
+else:
+    print("given character is not a vowel")
