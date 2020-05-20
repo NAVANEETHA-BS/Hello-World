@@ -1,0 +1,17 @@
+{'Floor':'1', 'Use':'Retail', 'Square Footage':'6598', 'Price':'6500', 'RoomID':'100', 'Capacity':'55'}
+{'Floor':'1', 'Use':'Retail', 'Square Footage':'1900', 'Price':'3000', 'RoomID':'101', 'Capacity':'25'}
+{'Floor':'1', 'Use':'Retail', 'Square Footage':'1850', 'Price':'3000', 'RoomID':'102', 'Capacity':'25'}
+{'Floor':'1', 'Use':'Restroom', 'Square Footage':'250', 'Price':'0', 'RoomID':'103', 'Capacity':'0'}
+{'Floor':'1', 'Use':'Maintenance', 'Square Footage':'150', 'Price':'0', 'RoomID':'104', 'Capacity':'0'}
+{'Floor':'2', 'Use':'Studio', 'Square Footage':'875', 'Price':'850', 'RoomID':'200', 'Capacity':'2'}
+{'Floor':'2', 'Use':'Studio', 'Square Footage':'734', 'Price':'850', 'RoomID':'201', 'Capacity':'2'}
+{'Floor':'2', 'Use':'Studio', 'Square Footage':'624', 'Price':'850', 'RoomID':'202', 'Capacity':'2'}
+{'Floor':'2', 'Use':'Studio', 'Square Footage':'624', 'Price':'850', 'RoomID':'203', 'Capacity':'2'}
+{'Floor':'2', 'Use':'Double', 'Square Footage':'850', 'Price':'1245', 'RoomID':'204', 'Capacity':'4'}
+{'Floor':'2', 'Use':'Double', 'Square Footage':'850', 'Price':'1245', 'RoomID':'205', 'Capacity':'4'}
+{'Floor':'2', 'Use':'Double', 'Square Footage':'850', 'Price':'1245', 'RoomID':'206', 'Capacity':'4'}
+{'Floor':'2', 'Use':'Double', 'Square Footage':'850', 'Price':'1245', 'RoomID':'207', 'Capacity':'4'}
+{'Floor':'2', 'Use':'Common', 'Square Footage':'731', 'Price':'0', 'RoomID':'208', 'Capacity':'0'}
+{'Floor':'2', 'Use':'Quad', 'Square Footage':'1100', 'Price':'1650', 'RoomID':'209', 'Capacity':'8'}
+{'Floor':'2', 'Use':'Quad', 'Square Footage':'1005', 'Price':'1650', 'RoomID':'210', 'Capacity':'8'}
+{'Floor':'2', 'Use':'Quad', 'Square Footage':'1205', 'Price':'1650', 'RoomID':'211', 'Capacity':'8'}

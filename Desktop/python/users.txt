@@ -1,0 +1,3 @@
+neetha,neetha,12345678,neetha@gmail.com
+geetha,geetha,12345678,geetha@gmail.com
+rita,rita,123456,rita@gmail.com
